@@ -3,8 +3,8 @@ class Person
 
 	def initialize(name)
 		@name = name
-		
 	end
+
 	def greeting
 		puts "Hi my name is #{name}"
 	end
@@ -24,7 +24,7 @@ class Instructor < Person
 end
 
 chris = Instructor.new("Chris")
-chris.teach 
+chris.teach
 
 paul = Student.new("Paul")
 paul.learn
